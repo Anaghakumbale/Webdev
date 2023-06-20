@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>scholarship additon Panel</title>
+  <link rel="stylesheet" href="styleaddadmin.css">
+ <script src="addschl.js"></script>
+ </head>
+<body>
+  
+  <div class="container">
+    <div class="myform">
+      <form name="myform" onsubmit="return validateForm()" method="post" required>
+      <h2>Add scholarships</h2>
+      <label for="Scholarship name" style="font-size:20px;">Scholarship name</label>
+        <input type="text" name="Scholarship name" placeholder="Scholarship name">
+        <label for="Scholarship amount" style="font-size:20px;">Scholarship amount</label>
+        <input type="number" name="Scholarship amount" placeholder="Scholarship amount">
+        <label for="subject1" style="font-size:20px;">Eligibility criteria</label>
+        <textarea id="subject1" name="Eligibility criteria" placeholder="Eligibility criteria.." style="height:200px"></textarea>
+        <label for="subject2" style="font-size:20px;">Required documents</label>
+        <textarea id="subject2" name="Required documents" placeholder="Required documents.." style="height:200px"></textarea>
+        <label for="subject3" style="font-size:20px;">Other details</label>
+        <textarea id="subject3" name="Other details" placeholder="Details.." style="height:200px"></textarea>
+        <button type="submit" value="submit" >ADD</button>
+      </form>
+    </div>
+   </div>
+ 
+
+</body>
+
+
+</html>

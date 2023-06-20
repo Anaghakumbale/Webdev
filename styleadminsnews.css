@@ -1,0 +1,75 @@
+div {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+  }
+  
+  .danger {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+  }
+  
+  .success {
+    background-color: #ddffdd;
+    border-left: 6px solid #04AA6D;
+  }
+  
+  .info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+  }
+  
+  
+  .warning {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+  }
+
+  .a1{
+    background-color: #f4ddff;
+    border-left: 6px solid #63038f;
+  }
+
+  .a2{
+    background-color: #dfdfdf;
+    border-left: 6px solid #000000;
+  }
+
+  .a3{
+    background-color: #fffbd2;
+    border-left: 6px solid #ffee00;
+  }
+
+  .a4{
+    background-color: #d2feff;
+    border-left: 6px solid #00ffff;
+  }
+
+  .b1{
+    background-color: rgb(54, 130, 230);
+        border:none;
+           position:absolute;
+           left:40%;
+           top:130%;
+           color:#f2f2f2;
+           padding :14px 28px;
+         text-align: center;
+         text-decoration: none;
+         font-size: 25px;
+         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .b2{
+    background-color: rgb(54, 130, 230);
+        border:none;
+           position:absolute;
+           right:40%;
+           top:130%;
+           color:#f2f2f2;
+           padding :14px 28px;
+         text-align: center;
+         text-decoration: none;
+         font-size: 25px;
+         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
